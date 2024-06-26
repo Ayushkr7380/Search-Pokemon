@@ -27,7 +27,7 @@ function PokemonDetails(){
         PokemonData()
     },[])
     return (
-        <div id='mainbody'>      
+        <>      
             <Search/>   
             <div id='PokemondetailBody'>
                 <div id="image">
@@ -40,7 +40,7 @@ function PokemonDetails(){
                     <p>Types : { data.types && data.types.map((t)=><span id="types" key={t}>{t}</span>)}</p>
                 </div>
             </div>       
-        </div>
+        </>
     )
 }
 

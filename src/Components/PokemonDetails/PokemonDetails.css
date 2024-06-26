@@ -5,6 +5,7 @@
     justify-content: space-evenly;
     align-items: center;
     /* flex-direction: column; */
+    flex-wrap: wrap;
     margin-top: 4rem;
 }
 #PokemondetailBody img{

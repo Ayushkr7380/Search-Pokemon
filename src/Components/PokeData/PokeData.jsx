@@ -50,7 +50,7 @@ function PokeData(){
     return (
         <>
             <div id="allpokemon">
-                {isLoading ? <h1>Loading</h1> : 
+                {isLoading ? <h1 style={{color:"white",margin:"0 auto"}}>Loading...</h1> : 
                     pokemonList.map((p)=><Pokemon key={p.id} name={p.name} image={p.image} id={p.id}/>)
                 }
                 
