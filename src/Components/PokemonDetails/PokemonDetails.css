@@ -1,0 +1,28 @@
+
+#PokemondetailBody{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-direction: column; */
+    margin-top: 4rem;
+}
+#PokemondetailBody img{
+    height: 300px;
+    width: 300px;
+}
+#details p{
+    font-size:x-large;
+    color:white;
+}
+#details span{
+    font-weight: 600;
+}
+#types{
+    background-color: rgb(84, 133, 255);
+    margin:0px 7px;
+    border-radius: 10px;
+    padding: 5px 7px;
+    color: white;
+    
+}

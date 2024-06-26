@@ -1,0 +1,28 @@
+#pokemon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+#link:hover{
+    background-color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    color:black;
+}
+#link img{
+    height: 300px;
+    width: 200px;
+    margin: 0px 15px;
+}
+
