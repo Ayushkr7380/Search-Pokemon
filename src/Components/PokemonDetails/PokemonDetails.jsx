@@ -12,7 +12,7 @@ function PokemonDetails(){
     const { search } = context;
     console.log('Search from pokedetails ',search)
 
-    const pokemonname = search;
+    const pokemonname = search.trim();
 
     const {id} = useParams()
     // console.log(id)
