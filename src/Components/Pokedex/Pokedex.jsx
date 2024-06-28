@@ -1,10 +1,12 @@
+import { useState } from "react"
 import PokeData from "../PokeData/PokeData"
 import Search from "../Search/Search"
 
 function Pokedex(){
+    
     return (
         <>
-            <Search/>
+            <Search />
             <PokeData/>
         </>
     )
