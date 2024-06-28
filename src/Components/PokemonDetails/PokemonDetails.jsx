@@ -12,7 +12,8 @@ function PokemonDetails(){
     const { search } = context;
     console.log('Search from pokedetails ',search)
 
-    const pokemonname = search.trim();
+    const pokemonname = search.trim().toLowerCase();
+
 
     const {id} = useParams()
     // console.log(id)
